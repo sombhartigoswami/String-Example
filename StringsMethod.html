@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string</title>
+</head>
+<body>
+    <script>
+//what is string?
+//ans. string is sequence of characters.it contains zero or more characters with double or single quotes.
+
+//1. find out the length of given string
+//  let str= "javascript is a great language";
+//  let store= str.length;  //it counts space also
+//  document.write(store);
+
+
+ //2. convert the given string into small laters
+//  let str= "JAVASCRIPT IS A PROGRAMMING LANGUAGE";
+//  let store= str.toLowerCase();
+//  document.write(store);
+ 
+
+ //3. convert the given string into upper case 
+//  let str= "hello i am a student";
+//  let store= str.toUpperCase();
+//  document.write(store);
+ 
+
+//4.search any character  in a string and print the boolean value
+// let str= "Hello i am javascript";
+// let store= str.includes("am");
+// document.write(store);
+
+
+
+//5. find out first char in a string and print the boolean value
+// let str="javascript is easy language";
+// let store= str.startsWith("java");
+// document.write(store);
+
+
+//6. find out the last char in a string
+// let str="javascript is easy language";
+//  let store= str.endsWith("language");
+//  document.write(store);
+
+
+//7. find the index no of any string
+// let str="javascript is easy language";
+//  let store= str.search("is"); //space also count(counting start from 0)
+//  document.write(store);      //IndexOF and lastIndexOF also can be used
+
+
+//8. find "is"string and print in form of array
+// let str="javascript is is is  easy language";
+//  let store= str.match(/is/g); //regular expression(g means search globaly)
+//  document.write(store);
+
+
+//9. replace a string with "php"
+// let str="javascript is easy language";
+// document.write(str+"<br>");
+//  let store= str.replace("javascript", "php");
+//  document.write(store);
+
+
+//10. replace all the "is" with php
+// let str="javascript is easy is  language";
+// document.write(str+"<br>");
+//  let store= str.replace(/is/g,"php");
+//  document.write(store);
+
+
+//11. remove the extra space from a string
+// let str="    javascript";
+// let store= str.trim();
+// alert(store);
+
+
+//12.* return a char ( charAt())
+// let str="javascript is a easy language";
+// let store= str.charAt(5);
+//  document.write(store);
+
+
+//13. retuen a skycode(charCodeAt())
+// let str="javascript is a easy language";
+//  let store= str.charCodeAt(5);
+//  document.write(store);
+
+
+//14. return char we we give sky code
+// let store= String.fromCharCode(65);
+// document.write(store);
+
+//15. concat(merge) two strings
+// let str1="hello";
+// let str2="i am javascript";
+// //let str3= str1+" "+ str2;
+// let str3= str1+" ".concat(str2); //both are right
+// document.write(str3);
+
+
+
+//16.split a string from middle
+// let str="javascript is a good language";
+// let store= str.split(" ");//conervt into array
+// Document.write(store);
+
+
+//17.repeat a string 3times
+// let str="javascript";
+// let store=str.repeat(3);
+// document.write(store);
+
+
+//18. take a slice 3to10 from a string
+// let str="javascript is a easy language";
+// let store=str.slice(3,10); //substring(3,10) also same
+// document.write(store);
+
+
+//19. substr()
+// let str="javascript is a easy language";
+// let store=str.substr(3,5); //return total five words from 3rd position starting 
+//  document.write(store);
+
+
+//20. convert a numeric value to a  string and also check typeof
+// let num=100;
+// let store=num.toString();
+// document.write(store+"<br>");
+// document.write(typeof store);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
